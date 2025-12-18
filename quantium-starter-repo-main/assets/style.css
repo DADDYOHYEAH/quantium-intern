@@ -1,0 +1,40 @@
+/* assets/style.css */
+
+body {
+    background-color: #F0F2F5; /* Light grey background */
+    font-family: "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #E91E63; /* Pink color for the header matching Pink Morsels */
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+/* Style the container for the radio buttons */
+.radio-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+/* Add spacing between radio options */
+.radio-group label {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* Style the graph container */
+.graph-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow */
+    max-width: 1200px;
+    margin: 0 auto; /* Center the graph */
+}
